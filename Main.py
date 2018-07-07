@@ -15,21 +15,16 @@ client = discord.Client()
 
 async def my_background_task():
     await bot.wait_until_ready()
-
     channel = discord.Object(id='427853885437247499')
     while True:
         while datetime.now().hour == 16 and datetime.now().minute == 20 or datetime.now().hour == 4 and datetime.now().minute == 20:
             await bot.send_message(channel, "The Current Time is: 4:20... NICE")
-            await asyncio.sleep(60)
+            await asyncio.sleep(59)
 
 
 @bot.command()
 async def schedule():
-    """Says world"""
-
-    channel = discord.Object(id='427853885437247499')
     await bot.say("Streams take place on mondays, wednesdays, and fridays from 3:30 pm until 11 pm")
-    await bot.send_message(channel, "hello")
 
 
 @bot.command()
