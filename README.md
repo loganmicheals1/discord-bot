@@ -1,1 +1,1 @@
-# zanders-discord-bot
+# discord-bot
