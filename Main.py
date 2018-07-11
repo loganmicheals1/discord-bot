@@ -5,7 +5,7 @@ from datetime import datetime
 from threading import Timer
 from discord.ext import commands
 
-TOKEN = 'NDY0OTEyNzk2MDQwMjk4NTE5.DiF3iQ.fdOUfO1EzbTB9t0W1q97C6GZ4gU'
+TOKEN = ''
 
 description = '''bot'''
 bot = commands.Bot(command_prefix='!', description=description)
